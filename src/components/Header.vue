@@ -1,5 +1,5 @@
 <template>
-  <nav class="bg-white border-b border-gray-200 px-4 sm:px-5 py-2.5">
+  <nav class="bg-white border-b border-gray-200 px-4 sm:px-5 py-2.5 md:h-16">
     <div class="flex flex-wrap items-center">
       <a href="#" class="flex items-center">
         <img src="../assets/logo.svg" class="mr-3 h-6 sm:h-10" alt="Clauz Logo">

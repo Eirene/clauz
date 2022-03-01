@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col md:flex-row justify-between items-center bg-white border-b border-gray-200 px-4 sm:px-5 py-2.5">
+  <div class="md:h-16 flex flex-col md:flex-row justify-between items-center bg-white border-b border-gray-200 px-4 sm:px-5 py-2.5">
 <!--    Filters-->
     <div class="flex order-2 md:order-1 items-center max-w-md lg:max-w-lg w-full">
       <div class="w-full relative">
