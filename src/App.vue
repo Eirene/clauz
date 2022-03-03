@@ -6,7 +6,7 @@
 
       <FiltersBar />
 
-      <main class="p-4 sm:p-5">
+      <main class="flex flex-col flex-1 min-h-full p-4 sm:p-5 pb-0 sm:pb-0">
         <!--  Selected filters-->
         <div class="selected-filters">
           <div class="bg-blue-50 text-xs py-2.5 px-3.5 inline-block rounded-lg">
@@ -139,7 +139,7 @@ export default {
 
 <style>
 .columns{
-  @apply h-full mt-4 flex items-start overflow-x-auto;
+  @apply mt-4 flex flex-1 items-start overflow-x-auto;
 }
 
 .column{
