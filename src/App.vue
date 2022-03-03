@@ -6,9 +6,9 @@
 
       <FiltersBar />
 
-      <main class="flex flex-col flex-1 min-h-full p-4 sm:p-5 pb-0 sm:pb-0">
+      <main class="flex flex-col flex-1 min-h-full pt-4 sm:pt-5">
         <!--  Selected filters-->
-        <div class="selected-filters">
+        <div class="selected-filters mx4 sm:mx-5">
           <div class="bg-blue-50 text-xs py-2.5 px-3.5 inline-block rounded-lg">
             <span class="text-blue-500 mr-1">Client:</span>
             <span class="text-gray-700">Novartis</span>
@@ -143,8 +143,12 @@ export default {
 }
 
 .column{
-  @apply w-96 pb-6 mr-4;
-  min-width: 24rem;
+  @apply pb-6 mr-4;
+  min-width: 20rem;
+  max-width: 25rem;
+}
+.column:last-child{
+  @apply mr-0;
 }
 .column-card{
   @apply bg-white rounded-lg shadow p-4 mb-4;
